@@ -1,5 +1,5 @@
 {  
-    "things":[ 
+    "things":{
         "syrupHalva":
         {
             "price": "65",
@@ -42,5 +42,5 @@
             "name":"Cocktail syrup without dispenser Yellow Banana MARIBELL-PETROVKA HoReCa 700 ml",
             "img":"./image/YellowBanana.png"
         }
-    ]
+    }
 }
