@@ -1,0 +1,66 @@
+#ShopAndCart{
+    display: flex;
+    width: 280px;
+    padding: 15px;
+}
+
+#ShopAndCart>div{
+    line-height: 30px;
+    padding: 15px 30px;
+}
+
+#ShopAndCart>div+div{
+    border-left: 3px solid black;
+}
+
+#sortingLeftSide{
+    min-width: 200px;
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(40px, 60px));
+    border: 3px solid gray;
+    border-radius: 15px;
+}
+
+label{
+    margin: 10px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+    line-height: 25px;
+    padding: 3%;
+}
+
+input:checked+label.check{
+    background: rgba(0,0,0, 0.1)
+}
+
+input{
+    display:none;
+}
+
+#sortingLeftSide>p{
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#plateWithThings{
+    width: 100%;
+    overflow: auto;
+    border: 3px solid gray;
+    border-radius: 15px;
+    padding: 20px 40px;
+}
+
+#shopPlate{    
+    max-height: 600px;
+    min-height: 500px;
+    margin: 30px 20px 0 5px;
+    margin-top: 30px;
+    display: flex;
+    min-width: 850px;
+}
+
+#shopPlate>div{
+    margin: 5px;
+}
