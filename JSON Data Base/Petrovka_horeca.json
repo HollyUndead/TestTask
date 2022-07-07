@@ -4,5 +4,41 @@
         "price": "65",
         "name": "Cocktail syrup without dispenser Halva MARIBELL-PETROVKA HoReCa 700 ml",
         "img": "./image/Halva.png"
+    },
+    "syrupCoconut":
+    {
+        "price": "65",
+        "name": "Cocktail syrup without dispenser Coconut MARIBELL-PETROVKA HoReCa 700 ml",
+        "img": "./image/Coconut.png"
+    },
+    "syrupHazelnut":
+    {
+        "price":"65",
+        "name": "Cocktail syrup without dispenser Hazelnut MARIBELL-PETROVKA HoReCa 700 ml",
+        "img": "./image/Hazelnut.png"
+    },
+    "syrupMacadamNut": 
+    {
+        "price": "65",
+        "name": "Cocktail syrup Macadam nut MARIBELL-PETROVKA HoReCa 700 ml",
+        "img": "./image/MacadamNut.png"
+    },
+    "syrupChocolate":
+    {
+        "price":"65",
+        "name": "Cocktail syrup without dispenser Chocolate MARIBELL-PETROVKA HoReCa 700 ml",
+        "img":"./image/Chocolate.png"
+    },
+    "syrupBlueberry":
+    {
+        "price":"65",
+        "name":"Cocktail syrup Blueberry MARIBELL-PETROVKA HoReCa 700 ml",
+        "img":"./image/Blueberry.png"
+    },
+    "syrupYellowBanana":
+    {
+        "price":"65",
+        "name":"Cocktail syrup without dispenser Yellow Banana MARIBELL-PETROVKA HoReCa 700 ml",
+        "img":"./image/YellowBanana.png"
     }
 }
