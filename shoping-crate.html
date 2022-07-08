@@ -1,12 +1,49 @@
 <!DOCTYPE html>
 <html>
-
+    <link rel="stylesheet" href="./CSS/shopping-crate-page.css">
     <head>
-        It's working
+        <div id="ShopAndCart">
+            <div id="shop">
+                <a href="./index.html">Shop</a>
+            </div>
+
+            <div id="cart">
+                <a href="./shoping-crate.html">Shopping Cart</a>
+            </div>
+        </div>
     </head>
 
     <body>
-            
+        <div id="mainDiv">
+            <div id="contactInfo">
+                <div>
+                    <p>Name:</p>
+                    <input type="text" id="name" class="contactInfo">
+                </div>
+                <div>
+                    <p>Email:</p>
+                    <input type="text" id="email" class="contactInfo">
+                </div>
+                <div>
+                    <p>Phone:</p>
+                    <input type="text" id="phone" class="contactInfo">
+                </div>
+                <div>
+                    <p>Adress:</p>
+                    <input type="text" id="adress" class="contactInfo">
+                </div>
+            </div>
+
+            <div id="orderPlate">
+
+            </div>
+        </div>
+        <div id="totalAndOrder">
+            <span id="totalPrice">Total price:</span>
+
+            <button id="makeOrder" onclick="MakeOrder()">Submit</button>
+        </div>
+        <script src="./JavaScript/shopping-crate.js"></script>
     </body>
 
 </html>
