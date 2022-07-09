@@ -1,0 +1,44 @@
+{
+    "ChocolateBananaPie":
+    {
+        "name": "Chocolate Banana Pie Cookies with mochi 160g",
+        "price": "250",
+        "img": "./image/ChocolateBananaPie.png"
+    },
+    "WafflesFerrero":
+    {
+        "name": "Waffles Ferrero Hanuta 242g",
+        "price": "125",
+        "img": "./image/WafflesFerrero.png"
+    },
+    "WafflesFerreroMinis":
+    {
+        "name": "Waffles Ferrero Hanuta Minis 220g",
+        "price": "125",
+        "img": "./image/WafflesFerreroMinis.png"
+    },
+    "WafflesHanutaKakao":
+    {
+        "name": "Waffles Hanuta Kakao & Crispies",
+        "pric": "125",
+        "img": "./image/WafflesHanutaKakao.png"
+    },
+    "SticksGlicoPockyMatcha":
+    {
+        "name": "Sticks Glico Pocky Matcha 40g",
+        "price": "100",
+        "img": "./image/SticksGlicoPockyMatcha.png"
+    },
+    "SticksGlicoPockyAlmond":
+    {
+        "name": "Sticks Glico Pocky Almond 43g",
+        "price": "100",
+        "img": "./image/SticksGlicoPockyAlmond.png"
+    },
+    "CookiesChocoPieCocoa":
+    {
+        "name": "Cookies Choco Pie Cocoa 1pc",
+        "price": "20",
+        "img": "./image/CookiesChocoPieCocoa.png"
+    }
+}
