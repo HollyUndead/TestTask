@@ -15,37 +15,37 @@
     {
         "name": "Coffee beans Joker Optimal 1 kg",
         "price": "285",
-        "img": "./image/JokerOptimal.png"
+        "img": "./image/JokerOptimal.jpg"
     },
     "JokerClassic": 
     {
         "name": "Coffee beans Joker Classic 1kg",
         "price": "308",
-        "img": "./image/JokerClassic.png"
+        "img": "./image/JokerClassic.jpg"
     },
     "ColombiaSupremo":
     {
         "name": "Colombia Supremo Caffeine Free 1 kg",
         "price": "640",
-        "img": "./image/ColombiaSupremo.png"
+        "img": "./image/ColombiaSupremo.jpg"
     },
     "SetOfCoffeeBeans":
     {
         "name": "Set of coffee beans 3 continents (1320 grams)",
         "pric": "685",
-        "img": "./image/SetOfCoffeeBeans.png"
+        "img": "./image/SetOfCoffeeBeans.jpg"
     },
     "PregoAromaCappuccino":
     {
         "name": "Coffee beans Prego Aroma Cappuccino 1 kg",
         "price": "300",
-        "img": "./image/PregoAroma.png"
+        "img": "./image/PregoAroma.jpg"
     },
     "PregoAromaChocolate":
     {
         "name": "Coffee beans Prego Aroma Chocolate Truffle 1 kg",
         "pric": "314",
-        "img": "./image/PregoAromaChocolate.png"
+        "img": "./image/PregoAromaChocolate.jpg"
     },
     "things": 
     [

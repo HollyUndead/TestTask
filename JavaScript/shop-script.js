@@ -40,6 +40,7 @@ async function CreatePlate(requestURl)
 
 function CreatePlateForThing(array)
 {
+    ById('plateWithThings').innerHTML = null;
     const things = array.things;
     things.forEach((a) =>
     {
