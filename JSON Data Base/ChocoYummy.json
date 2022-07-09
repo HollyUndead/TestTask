@@ -40,5 +40,9 @@
         "name": "Cookies Choco Pie Cocoa 1pc",
         "price": "20",
         "img": "./image/CookiesChocoPieCocoa.png"
-    }
+    },
+    "things": 
+    [
+        "ChocolateBananaPie","WafflesFerrero","WafflesFerreroMinis","WafflesFerreroMinis","WafflesHanutaKakao","SticksGlicoPockyMatcha","SticksGlicoPockyAlmond","CookiesChocoPieCocoa"
+    ]
 }

@@ -11,7 +11,7 @@
         "price": "160",
         "img": "./image/EthiopiaSidamo.png"
     },
-    "Joker Optimal":
+    "JokerOptimal":
     {
         "name": "Coffee beans Joker Optimal 1 kg",
         "price": "285",
@@ -46,5 +46,9 @@
         "name": "Coffee beans Prego Aroma Chocolate Truffle 1 kg",
         "pric": "314",
         "img": "./image/PregoAromaChocolate.png"
-    }
+    },
+    "things": 
+    [
+        "BrazilSantos","EthiopiaSidamo","JokerOptimal","JokerClassic","ColombiaSupremo","SetOfCoffeeBeans","PregoAromaCappuccino","PregoAromaChocolate"
+    ]
 }
