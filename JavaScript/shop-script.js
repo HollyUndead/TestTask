@@ -1,13 +1,22 @@
 document.addEventListener('DOMContentLoaded', () =>
 {
     let arrayShop = Array.from(document.getElementsByClassName('Shops'))
-    arrayShop.forEach((a)=>
+    const shop = localStorage.getItem('shopName')
+    if (shop == null)
     {
-        if (a.checked)
+        arrayShop.forEach((a)=>
         {
-            CreatePlateID(a.id)
-        }
-    })
+            if (a.checked)
+            {
+                CreatePlateID(a.id)
+            }
+        })
+    }
+    else
+    {
+        ById(shop).checked = true;
+        CreatePlateID(shop);
+    }
 })
 
 function CreatePlateID(id){
