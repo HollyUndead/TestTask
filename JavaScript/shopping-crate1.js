@@ -1,5 +1,7 @@
 document.addEventListener('DOMContentLoaded', LoadCarte());
 
+document.addEventListener('DOMContentLoaded', ()=>{window.location.href='./shopping-crate.js'});
+
 function ById(id){return document.getElementById(id)}
 
 function ByClass(className){return document.getElementsByClassName(className)}
