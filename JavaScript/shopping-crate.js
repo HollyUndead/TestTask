@@ -131,17 +131,23 @@ async function CalcPrice(id)
 
 function MakeOrder()
 {
-    let inputs = Array.from(ByClass('contactInfo'));
-    for (let i=0; i<inputs.length; i++)
-    {
-        if (inputs[i].value == '')
-        {
-            alert('Please, enter ' + inputs[i].id)
-            return;
-        }
-    }
-    localStorage.clear();
-    alert('Order is accepted')
+    let name = ById('name').value;
+    console.log(name)
+    let obj = {name: name}
+    let xhr = new XMLHttpRequest();
+    xhr.open('POST', './JavaScript/index.js');
+    xhr.send(obj);
+    // let inputs = Array.from(ByClass('contactInfo'));
+    // for (let i=0; i<inputs.length; i++)
+    // {
+    //     if (inputs[i].value == '')
+    //     {
+    //         alert('Please, enter ' + inputs[i].id)
+    //         return;
+    //     }
+    // }
+    // localStorage.clear();
+    // alert('Order is accepted')
 }
 
 function deletePosition(id)

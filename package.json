@@ -1,0 +1,29 @@
+{
+  "name": "testtask",
+  "version": "1.0.0",
+  "description": "You need one thing, this link: https://hollyundead.github.io/TestTask/\r All work on JSON files, if needed i can learn how to work with another database.\r I realise all featurs up to middle level, except saves order in database, because i overestimated my abilities. I know how to write to json file with node.js, but i can't understand how i can set up web-app to do this. I spen all day on it and still don't get it.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./JavaScript/index.js",
+    "dev": "nodemon ./JavaScript/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HollyUndead/TestTask.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HollyUndead/TestTask/issues"
+  },
+  "homepage": "https://github.com/HollyUndead/TestTask#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
