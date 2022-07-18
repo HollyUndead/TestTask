@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node ./JavaScript/index.js",
-    "dev": "nodemon ./JavaScript/index.js"
+    "start": "node ./JavaScript/index2.js",
+    "dev": "nodemon ./JavaScript/index2.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/HollyUndead/TestTask#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.1",
     "mongoose": "^6.4.4"
   },

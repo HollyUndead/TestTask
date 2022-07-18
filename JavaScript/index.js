@@ -1,12 +1,17 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import Post from "./post.js";
+import cors from 'express'
 
-const PORT = 5000;
+const PORT = 4000;
 
 const DB_URL = 'mongodb+srv://user:user@cluster0.tmcnd.mongodb.net/?retryWrites=true&w=majority'
 
 const app = express();
+
+app.use(
+    cors()
+)
 
 app.use(express.json())
 
@@ -20,13 +25,11 @@ app.post('/', async (req, res) => {
 }
 })
 
-// app.listen(PORT, () => console.log('workings'))
-
 async function startApp()
 {
     try {
         await mongoose.connect(DB_URL)
-        app.listen(PORT, () => console.log('workings'))
+        app.listen(PORT, () => console.log('App working on port:' + PORT))
     } catch(e){
         console.log(e)
     }

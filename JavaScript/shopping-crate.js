@@ -131,23 +131,60 @@ async function CalcPrice(id)
 
 function MakeOrder()
 {
+    let cartT = localStorage.getItem('cart');
+    console.log(localStorage.getItem('cart'))
+    if (cartT != null)
+    {
+    let inputs = Array.from(ByClass('contactInfo'));
+    for (let i=0; i<inputs.length; i++)
+    {
+        if (inputs[i].value == '')
+        {
+            alert('Please, enter ' + inputs[i].id)
+            return;
+        }
+    }
     let name = ById('name').value;
-    console.log(name)
-    let obj = {name: name}
-    let xhr = new XMLHttpRequest();
-    xhr.open('POST', './JavaScript/index.js');
-    xhr.send(obj);
-    // let inputs = Array.from(ByClass('contactInfo'));
-    // for (let i=0; i<inputs.length; i++)
-    // {
-    //     if (inputs[i].value == '')
-    //     {
-    //         alert('Please, enter ' + inputs[i].id)
-    //         return;
-    //     }
-    // }
-    // localStorage.clear();
-    // alert('Order is accepted')
+    let email = ById('email').value;
+    let phone = ById('phone').value;
+    let adress = ById('adress').value;
+        let cart = JSON.parse(cartT)
+        cart.shift();
+        console.log(cart)
+        let obj = {
+            name: name,
+            email: email,
+            phone: phone,
+            adress: adress,
+            cart: cart
+        }
+        console.log(cart)
+        const url = 'http://localhost:5000/'
+        console.log(JSON.stringify(obj))
+        postData(url, obj);
+        localStorage.clear();
+        alert('Order is accepted')
+        location.reload();
+    }
+    else
+    {
+        alert('Cart is empty')
+    }
+}
+
+async function postData(url, data)
+{
+    const response = await fetch(url, {
+        method: 'POST',
+        headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+    });
+    const content = await response.json();
+    console.log(content)
+    return content;
 }
 
 function deletePosition(id)

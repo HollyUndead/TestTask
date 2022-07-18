@@ -1,3 +1,6 @@
-You need one thing, this link: https://hollyundead.github.io/TestTask/
-All work on JSON files, if needed i can learn how to work with another database.
-I realise all featurs up to middle level, except saves order in database, because i overestimated my abilities. I know how to write to json file with node.js, but i can't understand how i can set up web-app to do this. I spen all day on it and still don't get it.
+You need this link: https://hollyundead.github.io/TestTask/.
+Then you must:
+1)press "Shift + Right mouse click"
+2)choose open PowerShell
+3)enter comand "npm run dev"
+4)and you can work with web-site
